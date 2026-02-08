@@ -2,16 +2,16 @@ import "dotenv/config";
 
 export const ENV = {
   PORT: process.env.PORT,
-  MONGO_URI: process.env.MONGO_URI,  // need to add atlas link , currently it is using local link
+  MONGO_URI: process.env.MONGO_URI, 
   JWT_SECRET: process.env.JWT_SECRET,
   NODE_ENV: process.env.NODE_ENV,
-  CLIENT_URL: process.env.CLIENT_URL,         // need to add deployment link here in the deployment environment
+  CLIENT_URL: process.env.CLIENT_URL,       
   RESEND_API_KEY: process.env.RESEND_API_KEY,
   EMAIL_FROM: process.env.EMAIL_FROM,
   EMAIL_FROM_NAME: process.env.EMAIL_FROM_NAME,
- CLOUDINAY_CLOUD_NAME:process.env.CLOUDINAY_CLOUD_NAME,
-CLOUDINAY_API_KEY:process.env.CLOUDINAY_API_KEY,
-CLOUDINAY_API_SECRET:process.env.CLOUDINAY_API_SECRET,
-ARCJET_KEY: process.env.ARCJET_KEY,
-ARCJET_ENV: process.env.ARCJET_ENV,
+  CLOUDINAY_CLOUD_NAME: process.env.CLOUDINAY_CLOUD_NAME,
+  CLOUDINAY_API_KEY: process.env.CLOUDINAY_API_KEY,
+  CLOUDINAY_API_SECRET: process.env.CLOUDINAY_API_SECRET,
+  ARCJET_KEY: process.env.ARCJET_KEY,
+  ARCJET_ENV: process.env.ARCJET_ENV,
 };
